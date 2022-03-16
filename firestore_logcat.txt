@@ -1,0 +1,33 @@
+2022-03-16 18:37:12.682 13896-13896/eu.example.firestoretest I/e.firestoretes: Late-enabling -Xcheck:jni
+2022-03-16 18:37:12.729 13896-13896/eu.example.firestoretest E/e.firestoretes: Unknown bits set in runtime_flags: 0x8000
+2022-03-16 18:37:12.730 13896-13896/eu.example.firestoretest W/e.firestoretes: Unexpected CPU variant for X86 using defaults: x86
+2022-03-16 18:37:15.487 13896-13896/eu.example.firestoretest I/FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+2022-03-16 18:37:15.523 13896-13896/eu.example.firestoretest I/FirebaseInitProvider: FirebaseApp initialization successful
+2022-03-16 18:37:15.546 13896-13896/eu.example.firestoretest I/e.firestoretes: Waiting for a blocking GC ClassLinker
+2022-03-16 18:37:15.547 13896-13931/eu.example.firestoretest D/libEGL: Emulator has host GPU support, qemu.gles is set to 1.
+2022-03-16 18:37:15.548 13896-13931/eu.example.firestoretest W/libc: Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+2022-03-16 18:37:15.535 13896-13896/eu.example.firestoretest W/RenderThread: type=1400 audit(0.0:135): avc: denied { write } for name="property_service" dev="tmpfs" ino=7419 scontext=u:r:untrusted_app:s0:c134,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+2022-03-16 18:37:15.560 13896-13931/eu.example.firestoretest D/libEGL: loaded /vendor/lib/egl/libEGL_emulation.so
+2022-03-16 18:37:15.562 13896-13931/eu.example.firestoretest D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+2022-03-16 18:37:15.566 13896-13931/eu.example.firestoretest D/libEGL: loaded /vendor/lib/egl/libGLESv2_emulation.so
+2022-03-16 18:37:15.615 13896-13896/eu.example.firestoretest I/e.firestoretes: WaitForGcToComplete blocked ClassLinker on ClassLinker for 68.920ms
+2022-03-16 18:37:15.659 13896-13932/eu.example.firestoretest I/FirebaseAuth: [FirebaseAuth:] Preparing to create service connection to fallback implementation
+2022-03-16 18:37:16.072 13896-13907/eu.example.firestoretest I/e.firestoretes: Background young concurrent copying GC freed 2108(228KB) AllocSpace objects, 0(0B) LOS objects, 14% free, 1534KB/1792KB, paused 7.120ms total 81.986ms
+2022-03-16 18:37:16.579 13896-13896/eu.example.firestoretest I/MainActivity: My log msg
+2022-03-16 18:37:16.693 13896-13929/eu.example.firestoretest D/HostConnection: HostConnection::get() New Host Connection established 0xdd9143f0, tid 13929
+2022-03-16 18:37:16.694 13896-13929/eu.example.firestoretest D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+2022-03-16 18:37:16.698 13896-13929/eu.example.firestoretest W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2022-03-16 18:37:16.714 13896-13929/eu.example.firestoretest D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+2022-03-16 18:37:16.714 13896-13929/eu.example.firestoretest D/EGL_emulation: eglCreateContext: 0xf4152ba0: maj 3 min 0 rcv 3
+2022-03-16 18:37:16.746 13896-13929/eu.example.firestoretest D/EGL_emulation: eglMakeCurrent: 0xf4152ba0: ver 3 0 (tinfo 0xf4189510)
+2022-03-16 18:37:16.769 13896-13929/eu.example.firestoretest W/Gralloc3: mapper 3.x is not supported
+2022-03-16 18:37:16.771 13896-13929/eu.example.firestoretest D/HostConnection: createUnique: call
+2022-03-16 18:37:16.772 13896-13929/eu.example.firestoretest D/HostConnection: HostConnection::get() New Host Connection established 0xdd914530, tid 13929
+2022-03-16 18:37:16.773 13896-13929/eu.example.firestoretest D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+2022-03-16 18:37:16.773 13896-13929/eu.example.firestoretest D/eglCodecCommon: allocate: Ask for block of size 0x1000
+2022-03-16 18:37:16.773 13896-13929/eu.example.firestoretest D/eglCodecCommon: allocate: ioctl allocate returned offset 0x3ff706000 size 0x2000
+2022-03-16 18:37:16.795 13896-13929/eu.example.firestoretest D/EGL_emulation: eglMakeCurrent: 0xf4152ba0: ver 3 0 (tinfo 0xf4189510)
+2022-03-16 18:37:16.797 13896-13929/eu.example.firestoretest D/eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+2022-03-16 18:37:16.819 13896-13929/eu.example.firestoretest I/OpenGLRenderer: Davey! duration=1277ms; Flags=1, IntendedVsync=5589728090354, Vsync=5589928090346, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=5589934356500, AnimationStart=5589934430400, PerformTraversalsStart=5589934894300, DrawStart=5590969020800, SyncQueued=5590982752600, SyncStart=5590986614500, IssueDrawCommandsStart=5590986728700, SwapBuffers=5591007708300, FrameCompleted=5591009780600, DequeueBufferDuration=331000, QueueBufferDuration=646000, 
+2022-03-16 18:37:17.059 13896-13896/eu.example.firestoretest I/Choreographer: Skipped 61 frames!  The application may be doing too much work on its main thread.
+2022-03-16 18:38:21.682 13896-13929/eu.example.firestoretest D/EGL_emulation: eglMakeCurrent: 0xf4152ba0: ver 3 0 (tinfo 0xf4189510)
